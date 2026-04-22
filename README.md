@@ -83,7 +83,6 @@ body{
 .form-message{margin-top:15px;font-size:15px;text-align:center;min-height:24px}
 footer{text-align:center;padding:40px 0;color:#6a5a4e;border-top:1px solid rgba(180,140,100,0.2)}
 
-/* Модальное окно */
 .modal-overlay{
   position:fixed;
   top:0;left:0;right:0;bottom:0;
@@ -149,7 +148,6 @@ footer{text-align:center;padding:40px 0;color:#6a5a4e;border-top:1px solid rgba(
 <a href="#order" class="btn">Оставить заявку</a>
 </nav>
 
-<!-- 1. Hero -->
 <section class="hero">
 <div class="hero-content">
 <span class="badge"><i class="fas fa-star" style="margin-right:6px"></i>Тренд 2026</span>
@@ -173,7 +171,6 @@ footer{text-align:center;padding:40px 0;color:#6a5a4e;border-top:1px solid rgba(
 </div>
 </section>
 
-<!-- 2. 4 главных эффекта -->
 <div id="effects"></div>
 <h2 class="section-title">Что даёт LED-маска</h2>
 <div class="features-grid">
@@ -183,7 +180,6 @@ footer{text-align:center;padding:40px 0;color:#6a5a4e;border-top:1px solid rgba(
 <div class="feature-card"><i class="fas fa-arrow-up"></i><h3>Подтяжка кожи</h3><p>Улучшает овал лица, делает кожу более подтянутой.</p></div>
 </div>
 
-<!-- 3. 7 цветов -->
 <div id="modes"></div>
 <h2 class="section-title">7 цветов для любой задачи</h2>
 <div class="color-cards-grid">
@@ -197,7 +193,6 @@ footer{text-align:center;padding:40px 0;color:#6a5a4e;border-top:1px solid rgba(
 </div>
 <p style="text-align:center;margin-top:20px"><i class="fas fa-info-circle"></i> Автоотключение через 10 минут</p>
 
-<!-- 4. Белый цвет + комплектация -->
 <div style="display:flex;flex-wrap:wrap;gap:40px;align-items:center;margin:60px 0">
 <div style="flex:1">
 <h3 style="font-size:28px;margin-bottom:20px">Элегантный белый цвет</h3>
@@ -211,7 +206,6 @@ footer{text-align:center;padding:40px 0;color:#6a5a4e;border-top:1px solid rgba(
 </div>
 </div>
 
-<!-- 5. Почему выбирают LED-маску -->
 <div id="why"></div>
 <h2 class="section-title">Почему выбирают LED-маску</h2>
 <div class="features-grid">
@@ -221,7 +215,6 @@ footer{text-align:center;padding:40px 0;color:#6a5a4e;border-top:1px solid rgba(
 <div class="feature-card"><i class="fas fa-leaf"></i><h3>Гипоаллергенная</h3><p>Безопасный ABS-пластик</p></div>
 </div>
 
-<!-- 6. Форма -->
 <div id="order"></div>
 <div class="cta-section">
 <h2 style="text-align:center">Оставьте заявку — перезвоним!</h2>
@@ -240,10 +233,8 @@ footer{text-align:center;padding:40px 0;color:#6a5a4e;border-top:1px solid rgba(
 <p style="margin-top:24px;font-size:15px;opacity:0.75;text-align:center">Нажимая кнопку, вы соглашаетесь с обработкой данных</p>
 </div>
 
-<!-- 7. Отзывы -->
 <div style="margin:40px 0">
 <h3 class="section-title" style="font-size:30px">Реальные отзывы</h3>
-
 <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: center; background: rgba(255,255,255,0.75); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); padding: 30px; border-radius: 36px; margin-bottom: 24px; border: 1px solid rgba(196,155,46,0.15);">
     <div style="flex: 2; min-width: 260px;">
         <div style="margin-bottom: 16px;">
@@ -259,7 +250,6 @@ footer{text-align:center;padding:40px 0;color:#6a5a4e;border-top:1px solid rgba(
         <img src="https://i.ibb.co/p6txWMkL/IMG-6730.jpg" alt="Результат LED-маски Анна" style="width: 100%; max-width: 280px; border-radius: 24px; box-shadow: 0 15px 30px rgba(0,0,0,0.1); border: 1px solid rgba(196,155,46,0.2);">
     </div>
 </div>
-
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px">
 <div style="background:rgba(255,255,255,0.75);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);padding:24px;border-radius:28px"><i class="fas fa-star" style="color:#c49b2e"></i><i class="fas fa-star" style="color:#c49b2e"></i><i class="fas fa-star" style="color:#c49b2e"></i><i class="fas fa-star" style="color:#c49b2e"></i><i class="fas fa-star" style="color:#c49b2e"></i><p style="margin-top:14px">"Лёгкая, удобная. Уже через неделю лицо более свежее. Рекомендую."</p><p style="margin-top:10px;font-weight:600;color:#1a1a2e">Елена, 42 года, Гродно</p></div>
 <div style="background:rgba(255,255,255,0.75);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);padding:24px;border-radius:28px"><i class="fas fa-star" style="color:#c49b2e"></i><i class="fas fa-star" style="color:#c49b2e"></i><i class="fas fa-star" style="color:#c49b2e"></i><i class="fas fa-star" style="color:#c49b2e"></i><i class="fas fa-star" style="color:#c49b2e"></i><p style="margin-top:14px">"Доставили быстро. Маска работает, особенно нравится золотистый оттенок."</p><p style="margin-top:10px;font-weight:600;color:#1a1a2e">Ольга, 29 лет, Брест</p></div>
@@ -269,14 +259,12 @@ footer{text-align:center;padding:40px 0;color:#6a5a4e;border-top:1px solid rgba(
 </div>
 </div>
 
-<!-- 8. Футер -->
 <footer>
 <p>© 2026 LUMIMASK. Все права защищены.</p>
 <p style="margin-top:16px"><a href="#" style="color:#6a5a4e">Политика конфиденциальности</a></p>
 </footer>
 </div>
 
-<!-- Модальное окно -->
 <div class="modal-overlay" id="thankYouModal">
 <div class="modal">
 <i class="fas fa-check-circle"></i>
@@ -291,18 +279,15 @@ function closeModal(){
   document.getElementById('thankYouModal').style.display='none';
 }
 function showModal(){
-  fbq('track', 'Lead'); // Отправка события Lead в Facebook Pixel
+  fbq('track', 'Lead');
   document.getElementById('thankYouModal').style.display='flex';
 }
 
-// Маска телефона +375
 (function(){
   const phoneInput = document.getElementById('phone');
-  
   phoneInput.addEventListener('focus', function(){
     if(this.value === '') this.value = '+375';
   });
-  
   phoneInput.addEventListener('input', function(e){
     let val = this.value;
     if(!val.startsWith('+375')){
@@ -312,11 +297,9 @@ function showModal(){
     if(digits.length > 9) digits = digits.slice(0,9);
     this.value = '+375' + (digits ? digits : '');
   });
-  
   phoneInput.addEventListener('blur', function(){
     if(this.value === '+375') this.value = '';
   });
-  
   phoneInput.addEventListener('keydown', function(e){
     const val = this.value;
     if((e.key === 'Backspace' || e.key === 'Delete') && val.length <= 4){
@@ -325,7 +308,6 @@ function showModal(){
   });
 })();
 
-// Отправка формы в Telegram
 (function(){
 const BOT='8637022986:AAH6KHezrdItCEAIcwqufQEeQjHhwKbC7rU';
 const CHAT='539019846';
